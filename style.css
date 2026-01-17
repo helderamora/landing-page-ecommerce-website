@@ -1,0 +1,63 @@
+:root {
+  --color1: #E9E9E9;
+  --color2: rgb(60, 61, 63);
+  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+body { 
+  background-color: var(--color2);
+  font-size: 1.5rem;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wraper {
+  max-width: 26rem;
+  margin: 1rem auto;
+  background-color: var(--color1);
+  padding: .4rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.days-week {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.days-week span {
+  color: var(--color2); 
+}
+
+.number-days {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.number-days span {
+  color: #3f4b5c;
+  display: inline-block;
+  width: 14.2%;
+}
+
+.mes-anterior {
+  color: #494848;
+  opacity: 0.5;
+}
+
+
+
+
+
+
