@@ -1,9 +1,12 @@
 :root {
-  --color1: rgb(246, 247, 248);
+  --color1: rgba(135, 183, 171, 0.243);
   --color2: rgb(255, 255, 255);
   --color3: yellowgreen;
   --color4: blueviolet;
   --color5: #5995fb;
+  --color6: #151B22;
+  --color7: #0D1117;
+  --translucide: #ffffff29;
   --font1: #5a5b5c62;
   --font2: #50515287;
   --font3: #000;
@@ -58,7 +61,7 @@ nav .logo {
   border: none;
   border-radius: .8rem;
   text-align: left;
-  background: var(--color1);
+  background: var(--translucide);
 }
 
 #search::placeholder {
